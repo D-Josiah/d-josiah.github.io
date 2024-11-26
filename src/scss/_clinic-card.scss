@@ -1,0 +1,44 @@
+.clinic-card-wrap{
+    background-color:white;
+    width: 20%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: $navyblue;
+    gap: 4%;
+    .clinic-img{
+        width: 200px;
+    }
+    .clinic-title{
+        background-color: $navyblue;
+        color: white;
+        padding:10px;
+        width: 90%;
+        text-align: center;
+    }
+    .clinic-services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            padding-bottom: 10px;
+        }
+    }
+    .book-btn{
+        width: 120px;
+        height: 30px;
+        background-color: $navyblue;
+        color: white;
+        border-radius: 10px;
+        border: none;
+    }
+    .book-btn-link{
+        text-decoration: none;
+        color: white;
+    }
+    
+}

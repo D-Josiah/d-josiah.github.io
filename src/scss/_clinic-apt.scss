@@ -1,0 +1,106 @@
+.apt-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+.apt-nav{
+    color:$navyblue;
+    font-weight: bold;
+    margin-top: 24px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 8vh;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        background-color: $navyblue;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      
+   
+    }
+
+    li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background-color: white;
+        padding-left: 32px;
+        padding-right: 32px;
+        width: 33.15%;
+        .apt-stepname{
+            white-space: nowrap; 
+        }
+        .apt-stepnum{
+            color: white;
+            background-color: $navyblue;
+            padding: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 40px;
+        }
+    }
+}
+
+.apt-main{
+    background-color: white;
+    width: 90%;
+    margin-top: 24px;
+    padding: 20px;
+    display: flex;
+    aside{
+        background-color: lightgray;
+       
+    }
+
+    .apt-selection{
+        height: 40vh;
+        .selection-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            padding: 10px;
+            font-size: 16px;
+            width: 200px;
+        }
+    }
+    .apt-summary{
+        height: 20vh;
+        font-size: 12px;
+        border: 2px $navyblue solid;
+        padding: 8px;
+    }
+    .services-wrap{
+        width: 100%;
+        padding: 10px;
+        .service-title{
+            
+            text-align: center;
+        }
+        ul{
+       
+            display: flex;
+            justify-content: center;
+            gap: 10%;
+            padding: 0;
+            li{
+                padding: 8px;
+            }
+        }
+        .services-choose{
+            .service-book{
+                display: flex;
+            }
+        }
+    }
+ 
+    
+}
+}
